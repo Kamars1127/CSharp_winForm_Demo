@@ -392,7 +392,7 @@ namespace AskingThingsSystem
             this.lblVersion.Name = "lblVersion";
             this.lblVersion.Size = new System.Drawing.Size(209, 35);
             this.lblVersion.TabIndex = 0;
-            this.lblVersion.Text = "當前版本: ver.1.05";
+            this.lblVersion.Text = "當前版本: ver.1.06";
             // 
             // MainForm
             // 

@@ -80,7 +80,7 @@ namespace AskingThingsSystem.Menu
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(198, 32);
             this.label1.TabIndex = 1;
-            this.label1.Text = "當前版本 : ver.1.05";
+            this.label1.Text = "當前版本 : ver.1.06";
             // 
             // label2
             // 
@@ -120,7 +120,7 @@ namespace AskingThingsSystem.Menu
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(297, 32);
             this.label4.TabIndex = 5;
-            this.label4.Text = "最後更新日期 : 2021 / 05 / 02";
+            this.label4.Text = "最後更新日期 : 2021 / 06 / 17";
             // 
             // AboutForm
             // 
