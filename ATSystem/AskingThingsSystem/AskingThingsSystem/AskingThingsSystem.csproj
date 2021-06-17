@@ -365,6 +365,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="TableTools\AddAskingContentForm.resx">
       <DependentUpon>AddAskingContentForm.cs</DependentUpon>
@@ -401,6 +402,7 @@
     </Content>
     <Content Include="DataBase\AskingDB_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>AskingDB.mdf</DependentUpon>
     </Content>
     <Content Include="desktopLogo.ico" />
   </ItemGroup>

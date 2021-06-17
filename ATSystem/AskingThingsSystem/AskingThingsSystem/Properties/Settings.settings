@@ -4,7 +4,7 @@
   <Settings>
     <Setting Name="connectStr" Type="System.String" Scope="Application">
       <Value Profile="(Default)">Data Source=(LocalDB)\MSSQLLocalDB;
-AttachDbFilename=E:\C_Sharp_WS\問事系統\AskingThingsSystem\AskingThingsSystem\DataBase\AskingDB.mdf;
+AttachDbFilename=|DataDirectory|DataBase\AskingDB.mdf;
 Integrated Security=True</Value>
     </Setting>
   </Settings>

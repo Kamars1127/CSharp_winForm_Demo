@@ -58,7 +58,7 @@ namespace AskingThingsSystem.Function
         private void CreatePDF(string fileName, string pdfTitle, DataGridView dataView)
         {
             /*- 取得標楷體 ttf檔位置 -*/
-            string fontPath = @"E:\C_Sharp_WS\WindowsFormsApp1\WindowsFormsApp1\Font\kaiu.ttf";
+            string fontPath = @"C:\Windows\Fonts\kaiu.ttf";
 
             using (FileStream stream = new FileStream(fileName, FileMode.Create))
             {
@@ -152,7 +152,7 @@ namespace AskingThingsSystem.Function
         private void CreatePDF(string fileName, string pdfTitle, DataTable dataTable)
         {
             /*- 取得標楷體 ttf檔位置 -*/
-            string fontPath = @"E:\C_Sharp_WS\WindowsFormsApp1\WindowsFormsApp1\Font\kaiu.ttf";
+            string fontPath = @"C:\Windows\Fonts\kaiu.ttf";
             
             using (FileStream stream = new FileStream(fileName, FileMode.Create))
             {

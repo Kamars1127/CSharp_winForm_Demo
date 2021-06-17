@@ -25,8 +25,8 @@ namespace AskingThingsSystem.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;\r\nAttachDbFilename=E:\\C_Sharp_WS\\問事系統\\AskingTh" +
-            "ingsSystem\\AskingThingsSystem\\DataBase\\AskingDB.mdf;\r\nIntegrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;\r\nAttachDbFilename=|DataDirectory|DataBase\\Ask" +
+            "ingDB.mdf;\r\nIntegrated Security=True")]
         public string connectStr {
             get {
                 return ((string)(this["connectStr"]));
